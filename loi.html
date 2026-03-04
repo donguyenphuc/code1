@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Giới thiệu Lợi</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+}
+
+/* Tiêu đề */
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    color: #333;
+}
+
+/* Bố cục trái phải */
+.container {
+    width: 85%;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Ảnh chữ nhật */
+.avatar {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Phần giới thiệu */
+.info {
+    font-size: 20px;
+    line-height: 2;
+    color: #222;
+}
+
+/* Link bài hát */
+.song {
+    color: #0066ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.song:hover {
+    text-decoration: underline;
+}
+
+/* Nút quay lại */
+.back {
+    display: block;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 10px 20px;
+    background: #0066ff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.back:hover {
+    background: #004ecc;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Doãn Tất Lợi</h1>
+
+<div class="container">
+
+    <img src="images/loi.jpg" class="avatar">
+
+    <div class="info">
+        <p><b>Ngày sinh:</b> 06/11/2008</p>
+        <p><b>Nơi sinh:</b> Kon Tum</p>
+        <p><b>Sở thích:</b> thể thao</p>
+        <p><b>Bài hát yêu thích:</b> 
+            <a class="song" href="https://www.youtube.com/watch?v=GgQFO8dL5XQ&list=RDGgQFO8dL5XQ&start_radio=1" target="_blank">
+                Thanh Xuân
+            </a>
+        </p>
+    </div>
+
+</div>
+
+<a href="index.html" class="back">⬅ Quay lại trang chủ</a>
+
+</body>
+</html>
